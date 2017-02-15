@@ -270,7 +270,7 @@ class CommandBase(object):
         self.config["build"].setdefault("debug-mozjs", False)
         self.config["build"].setdefault("ccache", "")
         self.config["build"].setdefault("rustflags", "")
-        self.config["build"].setdefault("incremental", False)
+        self.config["build"].setdefault("incremental", True)
 
         self.config.setdefault("android", {})
         self.config["android"].setdefault("sdk", "")

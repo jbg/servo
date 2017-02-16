@@ -12,7 +12,7 @@ path = "lib.rs"
 [dependencies]
 azure = {git = "https://github.com/servo/rust-azure", features = ["plugins"]}
 canvas_traits = {path = "../canvas_traits"}
-cssparser = {version = "0.10", features = ["heapsize", "serde"]}
+cssparser = {git = "https://github.com/nox/rust-cssparser.git", rev = "serde", features = ["heapsize", "serde"]}
 euclid = "0.10.1"
 gleam = "0.2.8"
 ipc-channel = "0.6.3"
@@ -23,6 +23,7 @@ plugins = {path = "../plugins"}
 servo_config = {path = "../config"}
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "serde"
 default-features = false
 features = ["serde_derive"]

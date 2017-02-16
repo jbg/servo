@@ -30,6 +30,7 @@ uuid = {version = "0.4", features = ["v4", "serde"]}
 websocket = "0.17"
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "serde"
 default-features = false
 features = ["serde_derive", "ipc"]

@@ -14,3 +14,47 @@ opt-level = 3
 # Uncomment to profile on Linux:
 # debug = true
 # lto = false
+
+[replace."app_units:0.3.1"]
+git = "https://github.com/nox/app_units"
+rev = "serde"
+
+[replace."https://github.com/servo/rust-azure#azure:0.11.0"]
+git = "https://github.com/nox/rust-azure"
+rev = "euclid"
+
+[replace."core-graphics:0.6.0"]
+git = "https://github.com/nox/core-graphics-rs"
+rev = "serde"
+
+[replace."dwrote:0.1.7"]
+git = "https://github.com/nox/dwrote-rs"
+rev = "serde"
+
+[replace."euclid:0.10.5"]
+git = "https://github.com/nox/euclid"
+rev = "serde"
+
+[replace."html5ever-atoms:0.1.3"]
+git = "https://github.com/nox/html5ever"
+rev = "serde"
+
+[replace."ipc-channel:0.6.3"]
+git = "https://github.com/nox/ipc-channel"
+rev = "serde"
+
+[replace."offscreen_gl_context:0.5.5"]
+git = "https://github.com/nox/rust-offscreen-rendering-context"
+rev = "serde"
+
+[replace."string_cache:0.3.0"]
+git = "https://github.com/nox/string-cache"
+rev = "serde"
+
+[replace."string_cache_codegen:0.3.1"]
+git = "https://github.com/nox/string-cache"
+rev = "serde"
+
+[replace."string_cache_shared:0.3.0"]
+git = "https://github.com/nox/string-cache"
+rev = "serde"
